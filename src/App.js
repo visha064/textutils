@@ -46,7 +46,7 @@ function App() {
       <Router>
         <Navbar title="TextUtils" about="About us" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
-
+        <TextArea heading="Enter your text here" mode={mode} showalert={showalert}/>
         <div className="container">
           <Routes>
             <Route path="/" element={<TextArea heading="Enter your text here" mode={mode} showalert={showalert} />}>

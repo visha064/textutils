@@ -51,8 +51,8 @@ function App() {
           <Routes>
             <Route path="/" element={<TextArea heading="Enter your text here" mode={mode} showalert={showalert} />}>
             </Route>
-            <Route path="/about" element={<About />}>
-            </Route>
+            {/* <Route path="/about" element={<About />}>
+            </Route> */}
           </Routes>
         </div>
       </Router>
